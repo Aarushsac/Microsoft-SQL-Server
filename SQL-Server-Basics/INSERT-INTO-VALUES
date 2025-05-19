@@ -1,0 +1,21 @@
+### INSERT INTO VALUES
+
+Syntax :
+
+INSERT INTO Table_Name (All columns name)
+
+VALUES
+
+() → Each record
+
+Give a specific set of columns
+
+insert into table_name (some specific columns)
+
+values
+
+() - not all columns only provided
+
+in this case all rest are null
+
+to check all values goes in a specific column we check select * from information_schema.columns where table_name =
