@@ -1,0 +1,5 @@
+USE Employee_Details
+
+SELECT DISTINCT FirstName,LastName FROM Employees
+
+SELECT DISTINCT * FROM Employees
