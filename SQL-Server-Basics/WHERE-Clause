@@ -1,0 +1,13 @@
+WHERE CLAUSE
+
+This is used for filtering out records from a table
+
+Important to note is that WHERE CLAUSE is executed before the SELECT statement
+
+First the table gets loaded, then the records are filtered and then the columns which needed to be brought are retrieved
+
+SELECT * FROM [dbo].[Employees]
+WHERE EmployeeID = 2
+
+SELECT EmployeeID FROM [dbo].[Employees]
+WHERE Salary > 60000.00
