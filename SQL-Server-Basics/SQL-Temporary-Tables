@@ -1,0 +1,28 @@
+Temporary Tables
+
+There are two types of temporary tables:
+  1.One with a single hash(#)
+  2.One with a double hash(##)
+
+
+One with a single hash(#)
+This temporary table gets only stored in one sql session's query window if we move to another  query window of that same session it will not been 
+shown
+
+
+One with a double hash(##)
+This temporary table gets only stored and active till the main session in which it was created is not closed till when it is present it can be 
+accessed in the same session's different query windows as well as other session's query window
+
+Syntax :
+SELECT * INTO #temp1
+FROM Employees
+
+SELECT * FROM #temp1
+
+Syntax :
+SELECT * INTO ##temp2
+FROM [dbo].[Employees]
+
+
+SELECT * FROM ##temp2
