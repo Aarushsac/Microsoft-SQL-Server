@@ -1,0 +1,4 @@
+When we create a datapoint or a record we sometimes don't insert all the records in the table we just put a specific number of columns which we want
+that time when other columns are left empty NULL values get stored in them
+
+So we when retrieving records and comparing column values to NULL have to use a special operator called IS to verify if it is NULL or not
