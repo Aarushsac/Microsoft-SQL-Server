@@ -1,0 +1,12 @@
+The AND operator acts as logical AND gate in Digital Logic circuits means if both conditions are true then it returns true else it returns false
+
+Syntax :
+SELECT * FROM Employees
+WHERE (Department = 'HR' or Department = 'Finance') AND Salary >= 60000.00
+
+
+THE OR operator acts as logical OR gate in Digital Logic cirucits means if any one of the condition is true it returns true else returns false
+
+Syntax : 
+SELECT * FROM Employees 
+WHERE (Department = 'HR') or (Department = 'Finance')
