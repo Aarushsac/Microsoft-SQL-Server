@@ -1,0 +1,9 @@
+It is used for sorting the representation you are getting by select according to the columns
+
+We can sort in Ascending or Descending order according to specified columns
+
+ASC/DESC keywords are used
+
+
+SELECT * FROM Employees
+ORDER BY FirstName ASC,Salary DESC
