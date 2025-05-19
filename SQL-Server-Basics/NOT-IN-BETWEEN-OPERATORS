@@ -1,0 +1,25 @@
+NOT,IN AND BETWEEN OPERATORS
+
+NOT operator
+
+SELECT * FROM EMPLOYEES 
+WHERE NOT LastName = 'Miller' OR NOT Department = 'HR'
+
+Basically it is used to remove specific results from the query
+
+Between Operator
+
+It retrieves those records which follow the condition
+
+SELECT * FROM Employees 
+WHERE Salary BETWEEN 65000.00 AND 75000.00
+
+SELECT * FROM Employees 
+WHERE Salary NOT BETWEEN 65000.00 AND 75000.00
+
+IN Operator
+
+
+
+SELECT * FROM dbo.employyes
+WHERE DEPARTMENT IN ('HR','Finance')
